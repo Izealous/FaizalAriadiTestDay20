@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-20T06:33:15 WIB" name="Default suite" finished-at="2022-07-20T06:33:28 WIB" duration-ms="13387">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MasterRunnerTest@4386f16]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-20T06:33:15 WIB" name="Default test" finished-at="2022-07-20T06:33:28 WIB" duration-ms="13387">
+      <class name="runner.MasterRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.MasterRunnerTest@4386f16]" started-at="2022-07-20T06:33:15 WIB" name="setUpClass" finished-at="2022-07-20T06:33:15 WIB" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MasterRunnerTest@4386f16]" started-at="2022-07-20T06:33:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T06:33:28 WIB" duration-ms="12798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Out barang dengan data valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check Out Aplikasi Payment Gateway"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.MasterRunnerTest@4386f16]" started-at="2022-07-20T06:33:28 WIB" name="tearDownClass" finished-at="2022-07-20T06:33:28 WIB" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.MasterRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
